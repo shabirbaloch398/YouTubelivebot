@@ -46,8 +46,8 @@ def post_comment(youtube, video_id, comment_text):
 def main():
     # List of account credential files (OAuth 2.0 credentials for different accounts)
     accounts = ["account1_credentials.json", "account2_credentials.json"]  # Add your credential file names here
-    video_id = "your_live_video_id"  # Replace with your live video ID
-    comment = "This is an automated comment!"
+    video_id = "https://www.youtube.com/live/D6YTrHai1rw?si=v9Z2Pl7tVBN823ZI"  # Replace with your live video ID
+    comment = "HACKER HACKER HACKER HEHEHEHE"
 
     # Loop through each account and post a comment
     for account in accounts:
