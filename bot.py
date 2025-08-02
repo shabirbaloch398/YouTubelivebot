@@ -6,7 +6,7 @@ import googleapiclient.errors
 # Step 1: Authentication
 def authenticate():
     scopes = ["https://www.googleapis.com/auth/youtube.force-ssl"]
-    client_secrets_file = "client_secrets.json"
+    client_secrets_file = "account1_credentials.json"
 
     flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
         client_secrets_file, scopes
